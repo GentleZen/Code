@@ -47,4 +47,4 @@ This calculator supports number conversions between the following bases:
 
 Feel free to use this number conversion calculator for your own calculations!
 ## click now
-- website : [Calculator](https://creative-dev10x.github.io/Code/Index.html?)
+- website : [Calculator](https://creative-dev10x.github.io/Code/index.html?)
