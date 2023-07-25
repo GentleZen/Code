@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="theme-color" content="#ffffff">
 <meta name="format-detection" content="telephone=no">
 
@@ -103,9 +103,61 @@ padding-top: 18px;
 #social:hover {
     transform: rotate(360deg)scale(1.3);
 	}
+  /* Common styles for all screen sizes */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  body {
+    font-family: 'Poppins';
+  }
+  h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  #wrapper td {
+    padding: .75rem;
+  }
+  #calcform {
+    max-width: 500px;
+    padding: 20px;
+    background: #C3D5CA;
+    border: 1px solid #E0E0E0;
+    border-radius: 7px;
+    margin: 0 auto; /* Center the form on the screen */
+  }
+  /* ... Add other common styles ... */
+
+  /* Styles for mobile screens */
+  @media (max-width: 767px) {
+    /* Customize styles for mobile here */
+    #ab {
+      padding-left: 5%;
+      display: block; /* Show buttons stacked on mobile */
+      margin: 10px auto; /* Center the buttons */
+    }
+    /* ... Add other mobile-specific styles ... */
+  }
+
+  /* Styles for tablets and larger screens */
+  @media (min-width: 768px) {
+    /* Customize styles for tablets here */
+    #ab {
+      padding-left: 10%;
+      display: inline; /* Show buttons inline on larger screens */
+      margin-left: -3%;
+    }
+    /* ... Add other tablet-specific styles ... */
+  }
+
+  /* Styles for desktop screens */
+  @media (min-width: 1200px) {
+    /* Customize styles for desktop here */
+    /* ... Add other desktop-specific styles ... */
+  }
 </style>
 </head>
-<body id="b">
+<body style="">
 <h1>Base Converter</h1>
 <br>
 <p style="padding-left:5%">Convert number from any base to any base:</p>
