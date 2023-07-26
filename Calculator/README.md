@@ -47,7 +47,7 @@ This calculator supports number conversions between the following bases:
 
 Feel free to use this number conversion calculator for your own calculations!
 ## Click now
-- Webpage : [Calculator](https://GentleZen.github.io/Code/index.html?)
+- Webpage : [Calculator](https://GentleZen.github.io/Code/Calculator/index.html?)
   
 ## Contact Me
 - Email: m.saad.bd.71@gmail.com
